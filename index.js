@@ -110,3 +110,15 @@ function countFavorites(userArr) {
 }
 
 console.log(countFavorites(users));
+
+
+//Iteration#4
+const textos = ['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'];
+
+function findArrayIndex(array, text) {
+    return array.indexOf(text);
+}
+console.log(findArrayIndex(textos, 'Caracol'))
+console.log(findArrayIndex(textos, 'Mosquito'))
+console.log(findArrayIndex(textos, 'Salamandra'))
+console.log(findArrayIndex(textos, 'Ajolote'))
