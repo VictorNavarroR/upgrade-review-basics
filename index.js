@@ -122,3 +122,13 @@ console.log(findArrayIndex(textos, 'Caracol'))
 console.log(findArrayIndex(textos, 'Mosquito'))
 console.log(findArrayIndex(textos, 'Salamandra'))
 console.log(findArrayIndex(textos, 'Ajolote'))
+
+//Iteration#5
+function rollDice(caras) {
+    let numeroCaras = caras + 1;
+    let randomNumber = parseInt(Math.random() * (numeroCaras - 1) + 1);
+
+    return randomNumber;
+}
+
+console.log(rollDice(5));
