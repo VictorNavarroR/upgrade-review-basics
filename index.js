@@ -132,3 +132,16 @@ function rollDice(caras) {
 }
 
 console.log(rollDice(5));
+
+//Iteration#6
+const swapArr = ['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño']
+function swap(array, index1, index2) {
+    let arrayClone = [...array];
+    
+    arrayClone[index1] = array[index2];
+    arrayClone[index2] = array[index1];
+    
+    return arrayClone;
+}
+
+console.log(swap(swapArr, 0, 1));
